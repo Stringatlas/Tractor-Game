@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac78e5439d2d76842b0a10d02f2e397d, type: 3}
+  m_Name: TerrainData
+  m_EditorClassIdentifier: 
+  autoUpate: 1
+  uniformScale: 2
+  meshHeightMultiplier: 266.6
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.21591151
+      value: 0.026937399
+      inSlope: 0.1328991
+      outSlope: 0.1328991
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.06491556
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  useFalloffMap: 0
+  fallOffA: 2
+  fallOffB: 2
+  terrainGradient:
+    serializedVersion: 2
+    key0: {r: 0.055980776, g: 0.3207547, b: 0.072324865, a: 1}
+    key1: {r: 0.07164471, g: 0.4339623, b: 0.09264862, a: 1}
+    key2: {r: 0.28286415, g: 0.44607762, b: 0.18010703, a: 0}
+    key3: {r: 0.49056602, g: 0.45799118, b: 0.26610893, a: 0}
+    key4: {r: 0.3773585, g: 0.29283527, b: 0.18333928, a: 0}
+    key5: {r: 0.26415092, g: 0.17817728, b: 0.11089354, a: 0}
+    key6: {r: 0.24705882, g: 0.15686275, b: 0.08627451, a: 0}
+    key7: {r: 0.16037738, g: 0.12633501, b: 0.12633501, a: 0}
+    ctime0: 0
+    ctime1: 11586
+    ctime2: 19891
+    ctime3: 28720
+    ctime4: 39712
+    ctime5: 52043
+    ctime6: 59753
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 2
